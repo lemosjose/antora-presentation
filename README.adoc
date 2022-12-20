@@ -1,0 +1,33 @@
+= Repositório-Fonte para a apresentação
+
+Esse repositório (como mencionado no slideshow e na apresentação) contém os arquivos-fonte para os slides da apresentação, junto com um script que gera o slideshow utilizando o asciidoctor e o pandoc.
+
+Você pode gerar uma cópia do slideshow em pdf utilizando o script `slider.sh` utilizando os comandos a seguir em um terminal linux ou outro que tenha as devidas ferramentas instaladas:
+
+`cd src`
+`./scripts/slider.sh`
+
+== Licenças 
+
+Todo o repositório utiliza a licença CC-BY-SA 4.0, permitindo o uso, reprodução e modificação (comercial ou não-comercial) por qualquer indivíduo ou entidade.
+
+== Sobre o Projeto Emilua
+
+O Projeto emilua foi a principal razão pelo início da minha experiência com o antora e também o motivo para a realização da apresentação, a documentação gerada e mencionada pode ser acessada em `emilua.gitlab.io/docs`, o repositório contendo o código-fonte e os arquivos de documentação originais está disponível na URL: `https://gitlab.com/emilua/emilua`
+
+== English (slideshow yet not translated):
+
+== This is the source for the Presentation given by me, for the Emilua Execution Engine project
+
+This repository contains the source adoc document files that were used to make the slideshow for the presentation, you can build up the whole slideshow to a PDF file using the script placed at `src/scripts/slider.sh` with the following command since the clone:
+
+`cd src`
+`./scripts/slider.sh index.adoc`
+
+== LICENSE 
+
+Everything in this repo is under the CC-BY-SA 4.0 license and have no restrictions on usage.
+
+== Check Emilua! 
+
+Emilua docs (mentioned in the Presentation) can be accessed at emilua.gitlab.io/docs and it's content it's in the repo `https://gitlab.com/emilua/emilua`.
